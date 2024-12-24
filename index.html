@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vicsek Model Simulation with Controls</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="controls">
+    <h2>Simulation Controls</h2>
+    <button id="playPause">Pause</button>
+    <button id="restart">Restart</button>
+    <label>
+      Radius:
+      <input type="range" id="radius" min="10" max="100" value="50">
+    </label>
+    <label>
+      Speed:
+      <input type="range" id="speed" step="0.01" min="1" max="5" value="2">
+    </label>
+    <label>
+      Noise:
+      <input type="range" id="noise" step="0.01" min="0" max="1" value="0.1">
+    </label>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>

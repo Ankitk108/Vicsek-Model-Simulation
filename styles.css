@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction:row-reverse  ;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  margin: 10px;
+}
+
+canvas {
+  display: block;
+  border: 1px solid white;
+}
